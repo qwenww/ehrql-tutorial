@@ -120,5 +120,5 @@ dataset.date_of_first_admission = (
     )
     .sort_by(apcs.admission_date)
     .first_for_patient()
-    .admission_date
+    .admission_date  
 )
