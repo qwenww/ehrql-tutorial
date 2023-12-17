@@ -1,5 +1,5 @@
 from ehrql import create_dataset
-from ehrql.tables.beta.core import patients, medications
+from ehrql.tables.core import patients, medications
 
 dataset = create_dataset()
 
